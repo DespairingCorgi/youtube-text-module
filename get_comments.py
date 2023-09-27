@@ -56,12 +56,12 @@ def get_video_data(vid):
                     
 
 
-url = 'https://www.youtube.com/watch?v=AXSBlElPUpQ'
-vid = url.split('=')[-1]
+# url = 'https://www.youtube.com/watch?v=AXSBlElPUpQ'
+# vid = url.split('=')[-1]
 
-with open('textfile.txt') as f:
-    lst = f.read().split("\n")
+# with open('textfile.txt') as f:
+#     lst = f.read().split("\n")
     
-for url in lst:
-    vid = url.split('=')[-1]
-    get_video_data(vid)
+# for url in lst:
+#     vid = url.split('=')[-1]
+#     get_video_data(vid)
