@@ -31,6 +31,6 @@ def get_transcripts(vid, *langs):
         d[lang] = texts
     return d
 
-d = get_transcripts(VIDEOID, 'ko', 'en')
-print(d['ko'])
-print(d['en'])
+# d = get_transcripts(VIDEOID, 'ko', 'en')
+# print(d['ko'])
+# print(d['en'])
