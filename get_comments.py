@@ -2,7 +2,7 @@ import requests
 import os
 import json
 
-API_KEY = 'AIzaSyCnU1SN56rFEdmccXhyjXmSh5zAvUHq3K0'
+API_KEY = '<YOURAPIKEY HERE>'
 API_COMMENTTHREAD_REQ = 'https://www.googleapis.com/youtube/v3/commentThreads'
 VIDEOID = '_XTGPe0Ui_g'
 
